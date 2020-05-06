@@ -7,6 +7,7 @@ TagManager:
   - arrow
   - hero
   - endPoint
+  - danger
   layers:
   - Default
   - TransparentFX
