@@ -1,19 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
+/// <summary>
+/// Скрипт для сцены настроек.
+/// </summary>
 public class Settings : MonoBehaviour
 {
     public AudioMixer audioMixer;
-
+    
+    // Массив доступных разрешений.
     Resolution[] resolutions;
 
     public Dropdown resDrop;
 
+    /// <summary>
+    /// Вызывается один раз при загрузке.
+    /// </summary>
     void Start()
     {
+        // Устанавливаем доступные разрешения в дропдаун.
         resolutions = Screen.resolutions;
         List<string> options = new List<string>();
 
@@ -34,16 +41,27 @@ public class Settings : MonoBehaviour
         resDrop.RefreshShownValue();
     }
 
+    /// <summary>
+    /// Изменение громкости аудио.
+    /// </summary>
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
     }
 
+    /// <summary>
+    /// Изменение галочки fullscreen.
+    /// </summary>
+    /// <param name="isFull"></param>
     public void SetFullscreen(bool isFull)
     {
         Screen.fullScreen = isFull;
     }
 
+    /// <summary>
+    /// Изменение разрешения.
+    /// </summary>
+    /// <param name="resIndex"></param>
     public void SetResolution(int resIndex)
     {
         Resolution res = resolutions[resIndex];

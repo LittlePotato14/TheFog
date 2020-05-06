@@ -69,9 +69,10 @@
     <Compile Include="Assets\Scripts\CameraDrag2.cs" />
     <Compile Include="Assets\Scripts\DragAndMove.cs" />
     <Compile Include="Assets\Scripts\Globals.cs" />
-    <Compile Include="Assets\Scripts\Level.cs" />
     <Compile Include="Assets\Scripts\MessageBoxScript.cs" />
+    <Compile Include="Assets\Scripts\PlayAgain.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Progress.cs" />
     <Compile Include="Assets\Scripts\RulesScript.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Settings.cs" />

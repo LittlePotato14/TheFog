@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Захват и передвижение объектов.
+/// </summary>
 public class DragAndMove : MonoBehaviour
 {
     private float startPosX;
@@ -10,23 +13,40 @@ public class DragAndMove : MonoBehaviour
     public GameObject self;
     public float rotateSpeed = 150f;
     public bool isBeingHeld = false;
+    private Globals globals;
 
+    /// <summary>
+    /// Вызывается один раз при запуске.
+    /// </summary>
+    void Start()
+    {
+        globals = Camera.main.GetComponent<Globals>();
+    }
+
+    /// <summary>
+    /// Вызывается раз за кадр.
+    /// </summary>
     public void Update()
     {
-        if (Globals.Playing)
+        // Если включена анимация уровня.
+        if (globals.Playing)
         {
             selected = false;
             moved = false;
-            sprite.GetComponent<SpriteRenderer>().color = Globals.nonSelected;
+            sprite.GetComponent<SpriteRenderer>().color = globals.nonSelected;
             isBeingHeld = false;
             return;
         }
-        if (selected && isBeingHeld && !Globals.Playing)
+
+        // Передвигается.
+        if (selected && isBeingHeld && !globals.Playing)
         {
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
             var newPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, 0);
+
+            // Если было измеение позиции.
             if (gameObject.transform.localPosition != newPosition)
             {
                 gameObject.transform.localPosition = newPosition;
@@ -34,8 +54,8 @@ public class DragAndMove : MonoBehaviour
             }
         }
 
-        //rotation and delete
-        if (selected && !Globals.Playing)
+        // Поворот и удаление.
+        if (selected && !globals.Playing)
         {
             if (Input.GetKeyUp(KeyCode.Delete))
             {
@@ -47,9 +67,12 @@ public class DragAndMove : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// При нажатии на лкм.
+    /// </summary>
     public void OnMouseDown()
     {
-        if (selected && !Globals.Playing && Input.GetMouseButtonDown(0))
+        if (selected && !globals.Playing && Input.GetMouseButtonDown(0))
         {
             isBeingHeld = true;
 
@@ -62,19 +85,26 @@ public class DragAndMove : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// При отжатии.
+    /// </summary>
     public void OnMouseUp()
     {
+        // Если не был выбран объект, то теперь он выбран.
         if (!selected)
         {
             selected = true;
-            sprite.GetComponent<SpriteRenderer>().color = Globals.selected;
+            sprite.GetComponent<SpriteRenderer>().color = globals.selected;
             return;
         }
+
+        // Если объект не был передвинут, то теперь он не выбран.
         if (!moved)
         {
             selected = false;
-            sprite.GetComponent<SpriteRenderer>().color = Globals.nonSelected;
+            sprite.GetComponent<SpriteRenderer>().color = globals.nonSelected;
         }
+
         moved = false;
         isBeingHeld = false;
     }
