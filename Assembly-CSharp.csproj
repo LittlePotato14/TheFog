@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\AnimatorHedge.cs" />
     <Compile Include="Assets\Scripts\ApplicationCloser.cs" />
     <Compile Include="Assets\Scripts\CameraDrag2.cs" />
+    <Compile Include="Assets\Scripts\DoNotDestroy.cs" />
     <Compile Include="Assets\Scripts\DragAndMove.cs" />
     <Compile Include="Assets\Scripts\Globals.cs" />
     <Compile Include="Assets\Scripts\MessageBoxScript.cs" />
