@@ -5,8 +5,18 @@
 /// </summary>
 public class DoNotDestroy : MonoBehaviour
 {
+    static GameObject instance;
+
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        if (instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = gameObject;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 }
