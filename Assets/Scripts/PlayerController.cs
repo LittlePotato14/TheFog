@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         globals = Camera.main.GetComponent<Globals>();
+        transform.rotation = Quaternion.identity;
         transform.Rotate(0f, 0f, globals.GetDegreeAngle(globals.startDirection));
     }
 
