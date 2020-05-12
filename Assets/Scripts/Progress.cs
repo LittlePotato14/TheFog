@@ -23,7 +23,7 @@ public class Progress
 
     // Количество уровней.
     [DataMember]
-    public int LevelAmount { get; set; } = 1;
+    public int LevelAmount { get; set; } = 2;
 
     // Пройдены ли правила.
     [DataMember]
