@@ -17,8 +17,11 @@ public class PlayerController : MonoBehaviour
     /// <param name="other"></param>
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!globals.Playing)
+            return;
+
         // Коллизия с предметом поворота.
-        if (other.gameObject.tag == "arrow" && globals.Playing)
+        if (other.gameObject.tag == "arrow")
         {
             float angle = other.gameObject.transform.rotation.eulerAngles.z;
             var cos = Mathf.Cos(angle * Mathf.PI / 180);
@@ -34,26 +37,40 @@ public class PlayerController : MonoBehaviour
         }
 
         // Коллизия с точкой конца уровня.
-        else if (other.gameObject.tag == "endPoint" && globals.Playing)
+        else if (other.gameObject.tag == "endPoint")
         {
             gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             dialogCanvas.GetComponent<MessageBoxScript>().Show("Уровень пройден.", true);
         }
 
         // Коллизия с опасной точкой.
-        else if(other.gameObject.tag == "danger" && globals.Playing)
+        else if(other.gameObject.tag == "danger")
         {
             // Устанаваливаем начальные настройки.
-            var hero = GameObject.FindGameObjectsWithTag("hero")[0];
-            hero.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-            hero.transform.rotation = Quaternion.identity;
-            hero.transform.Rotate(0f, 0f, globals.GetDegreeAngle(globals.startDirection));
-            hero.transform.position = globals.startPosition;
-            angleBar.SetAngle(0);
+            SetStartSettings();
 
             // Показываем уведомление.
-            dialogCanvas.GetComponent<MessageBoxScript>().Show("Вы попали в опасную зону.");
+            dialogCanvas.GetComponent<MessageBoxScript>().Show("Вы попали в ловушку.");
         }
+
+        // Коллизия с границей уровня.
+        else if (other.gameObject.tag == "border")
+        {
+            // Устанаваливаем начальные настройки.
+            SetStartSettings();
+
+            // Показываем уведомление.
+            dialogCanvas.GetComponent<MessageBoxScript>().Show("Вы ушли в дремучий лес.");
+        }
+    }
+
+    private void SetStartSettings()
+    {
+        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        gameObject.transform.rotation = Quaternion.identity;
+        gameObject.transform.Rotate(0f, 0f, globals.GetDegreeAngle(globals.startDirection));
+        gameObject.transform.position = globals.startPosition;
+        angleBar.SetAngle(0);
     }
 
     /// <summary>

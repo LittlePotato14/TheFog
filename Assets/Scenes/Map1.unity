@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 214125033}
   m_Layer: 8
   m_Name: "\u043F\u0440\u0430\u0432\u044B\u0435\u041A\u0443\u0441\u0442\u044B"
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1376,7 +1376,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 96.29586, y: -26.131327}
@@ -5299,7 +5299,7 @@ GameObject:
   - component: {fileID: 807301869}
   m_Layer: 8
   m_Name: "\u0432\u0435\u0440\u0445\u043D\u0438\u0435\u041A\u0443\u0441\u0442\u044B"
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5314,7 +5314,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 46.082806, y: 0.04416145}
@@ -5376,7 +5376,7 @@ GameObject:
   - component: {fileID: 816971223}
   m_Layer: 8
   m_Name: "\u043B\u0435\u0432\u044B\u0435\u041A\u0443\u0441\u0442\u044B"
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5391,7 +5391,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -3.882807, y: -25.824314}
@@ -6208,7 +6208,7 @@ GameObject:
   - component: {fileID: 912026650}
   m_Layer: 8
   m_Name: "\u043D\u0438\u0436\u043D\u0438\u0435\u041A\u0443\u0441\u0442\u044B"
-  m_TagString: Untagged
+  m_TagString: border
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6223,7 +6223,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 46.32298, y: -52.50694}

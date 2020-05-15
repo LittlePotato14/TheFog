@@ -8,6 +8,7 @@ TagManager:
   - hero
   - endPoint
   - danger
+  - border
   layers:
   - Default
   - TransparentFX
