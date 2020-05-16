@@ -64,6 +64,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Устанавливет героя в начальное положение.
+    /// </summary>
     private void SetStartSettings()
     {
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
