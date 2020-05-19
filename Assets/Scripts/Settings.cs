@@ -12,6 +12,7 @@ public class Settings : MonoBehaviour
     
     // Массив доступных разрешений.
     Resolution[] resolutions;
+    public Toggle isFull;
 
     public Dropdown resDrop;
 
@@ -39,6 +40,8 @@ public class Settings : MonoBehaviour
 
         resDrop.value = currentResolutionIndex;
         resDrop.RefreshShownValue();
+
+        isFull.isOn = Screen.fullScreen;
     }
 
     /// <summary>

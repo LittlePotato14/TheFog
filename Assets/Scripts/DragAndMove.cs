@@ -26,7 +26,7 @@ public class DragAndMove : MonoBehaviour
     /// <summary>
     /// Вызывается раз за кадр.
     /// </summary>
-    public void Update()
+    void Update()
     {
         // Если включена анимация уровня.
         if (globals.Playing)

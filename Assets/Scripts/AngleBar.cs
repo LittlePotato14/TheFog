@@ -16,13 +16,13 @@ public class AngleBar : MonoBehaviour
     /// <summary>
     /// Увеличивает счётчик углов на переданное значение.
     /// </summary>
-    /// <param name="ang"> Значение увеличения. </param>
-    public void IncreaseAngle(float ang)
+    /// <param name="angle"> Значение увеличения. </param>
+    public void IncreaseAngle(float angle)
     {
         // Игра продолжается.
-        if (slider.value + ang < slider.maxValue)
+        if (slider.value + angle < slider.maxValue)
         {
-            slider.value += ang;
+            slider.value += angle ;
             fill.color = gradient.Evaluate(slider.normalizedValue);
             counter.text = $"{Mathf.Round(slider.value)}/{slider.maxValue}";
         }
@@ -46,10 +46,10 @@ public class AngleBar : MonoBehaviour
     /// <summary>
     /// Установить счётчик угла на переданное значение.
     /// </summary>
-    /// <param name="ang"> Новое значение счётчика. </param>
-    public void SetAngle(float ang)
+    /// <param name="angle"> Новое значение счётчика. </param>
+    public void SetAngle(float angle)
     {
-        slider.value = ang;
+        slider.value = angle;
         fill.color = gradient.Evaluate(slider.normalizedValue);
         counter.text = $"{Mathf.Round(slider.value)}/{slider.maxValue}";
     }

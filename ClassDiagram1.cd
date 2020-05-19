@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AngleBar">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAQAAAAAAAAAAAAAEIhAgEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AngleBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimatorHedge">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AnimatorHedge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationCloser">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ApplicationCloser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDrag2">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraDrag2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoNotDestroy">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\DoNotDestroy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DragAndMove">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACAAAAEAAAAAAAAAABAAAAAIIAAAAgAiAII=</HashCode>
+      <FileName>Assets\Scripts\DragAndMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Globals">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGABABAAAAgBAAAIAAEAAQEBAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageBoxScript">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAACAAAAAAAAAAAAACAAAEAAMIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MessageBoxScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayAgain">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayAgain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEiAAAAAAAABAAAAAAEAAAAAIgAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Progress">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAABCBEIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Progress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RulesScript">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAgAAAAAkAAAIAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\RulesScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneLoader">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgAAABAgAAAAAAAACAAIAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UiController">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAEAAAAAAAAAAAAAAAAAAAIAAgAAEAIAAA=</HashCode>
+      <FileName>Assets\Scripts\UiController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

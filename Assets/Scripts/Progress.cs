@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 
 /// <summary>
 /// Singleton.
-/// 
+/// Хранит информацию о прогрессе пользователя.
 /// </summary>
 [DataContract]
 public class Progress

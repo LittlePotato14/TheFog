@@ -2135,7 +2135,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3318,7 +3318,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.78297436, g: 0.790391, b: 0.8018868, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.29241526, b: 0.33962262, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3438,7 +3438,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.5660378, g: 0.5633678, b: 0.5633678, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4168,7 +4168,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4187,8 +4187,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617328952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0560092, y: 1.1543286, z: 100}
-  m_LocalScale: {x: 0.28346643, y: 0.307748, z: 1}
+  m_LocalPosition: {x: 1.169, y: 1.179, z: 100}
+  m_LocalScale: {x: 0.23839527, y: 0.32098114, z: 1}
   m_Children: []
   m_Father: {fileID: 624716712}
   m_RootOrder: 0
@@ -4248,7 +4248,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4267,8 +4267,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617387619}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.1060092, y: 1.1543286, z: 100}
-  m_LocalScale: {x: 0.283927, y: 0.2979, z: 1}
+  m_LocalPosition: {x: 3.081, y: 1.192, z: 100}
+  m_LocalScale: {x: 0.27398953, y: 0.3178593, z: 1}
   m_Children: []
   m_Father: {fileID: 624716712}
   m_RootOrder: 2
@@ -4328,7 +4328,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4458,15 +4458,18 @@ MonoBehaviour:
   box: {fileID: 625925415}
   text: {fileID: 1488225472}
   sentences:
-  - "\u0426\u0435\u043B\u044C \u0438\u0433\u0440\u044B: \u0420\u0430\u0441\u0441\u0442\u0430\u0432\u0438\u0442\u044C
-    \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B \u0442\u0430\u043A\u0438\u043C
-    \u043E\u0431\u0440\u0430\u0437\u043E\u043C, \u0447\u0442\u043E\u0431\u044B \u0433\u0435\u0440\u043E\u0439
-    \u043F\u043E\u043F\u0430\u043B \u0432 \u0442\u043E\u0447\u043A\u0443 \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F."
-  - "\u0417\u0430\u043C\u0435\u0447\u0430\u043D\u0438\u0435: \u0433\u0435\u0440\u043E\u0439
-    \u043C\u043E\u0436\u0435\u0442 \u0440\u0430\u0437\u0432\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F
-    \u043D\u0435 \u0431\u043E\u043B\u0435\u0435 \u0447\u0435\u043C \u043D\u0430 \u0437\u0430\u0434\u0430\u043D\u043D\u043E\u0435
-    \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0433\u0440\u0430\u0434\u0443\u0441\u043E\u0432."
-  - "\u0412\u0430\u0436\u043D\u043E: \u043D\u0435 \u043F\u043E\u043F\u0430\u0434\u0430\u0439\u0442\u0435\u0441\u044C
+  - "\u041E \u043D\u0435\u0442! \u0401\u0436\u0438\u043A \u0437\u0430\u0431\u043B\u0443\u0434\u0438\u043B\u0441\u044F
+    \u0432 \u0442\u0443\u043C\u0430\u043D\u0435. \u0420\u0430\u0441\u0441\u0442\u0430\u0432\u044C\u0442\u0435
+    \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u0438, \u0447\u0442\u043E\u0431\u044B
+    \u043E\u043D \u0441\u043C\u043E\u0433 \u0434\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+    \u0434\u043E \u043D\u043E\u0440\u044B."
+  - "\u0415\u0441\u043B\u0438 \u0451\u0436 \u0431\u0443\u0434\u0435\u0442 \u0441\u043B\u0438\u0448\u043A\u043E\u043C
+    \u043C\u043D\u043E\u0433\u043E \u043F\u043E\u0432\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0442\u044C,
+    \u0443 \u043D\u0435\u0433\u043E \u0437\u0430\u043A\u0440\u0443\u0436\u0438\u0442\u0441\u044F
+    \u0433\u043E\u043B\u043E\u0432\u0430, \u0441\u043B\u0435\u0434\u0438\u0442\u0435
+    \u0437\u0430 \u0441\u0447\u0451\u0442\u0447\u0438\u043A\u043E\u043C."
+  - "\u0411\u0443\u0434\u044C\u0442\u0435 \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u044B
+    \u0438 \u043D\u0435 \u0434\u0430\u0439\u0442\u0435 \u0435\u0436\u0443 \u043F\u043E\u043F\u0430\u0441\u0442\u044C
     \u0432 \u043B\u043E\u0432\u0443\u0448\u043A\u0438."
   next: {fileID: 933904188}
   isFirst: 1
@@ -4685,7 +4688,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7371,7 +7374,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7691,7 +7694,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7997,10 +8000,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -8268,12 +8271,11 @@ MonoBehaviour:
   sentences:
   - "\u041F\u043E \u044D\u0442\u043E\u0439 \u0448\u043A\u0430\u043B\u0435 \u0432\u044B
     \u043C\u043E\u0436\u0435\u0442\u0435 \u043E\u0442\u0441\u043B\u0435\u0436\u0438\u0432\u0430\u0442\u044C
-    \u0443\u0433\u043E\u043B \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0430 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430."
+    \u0443\u0433\u043E\u043B \u043F\u043E\u0432\u043E\u0440\u043E\u0442\u0430."
   - "\u041F\u0440\u0438 \u043F\u0435\u0440\u0432\u044B\u0448\u0435\u043D\u0438\u0438
     \u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043C\u043E\u0433\u043E \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u0430
-    \u0433\u0440\u0430\u0434\u0443\u0441\u043E\u0432 \u0433\u0435\u0440\u043E\u0439
-    \u0432\u0435\u0440\u043D\u0451\u0442\u0441\u044F \u043D\u0430 \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u0443\u044E
-    \u043F\u043E\u0437\u0438\u0446\u0438\u044E."
+    \u0433\u0440\u0430\u0434\u0443\u0441\u043E\u0432 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+    \u0431\u0443\u0434\u0435\u0442 \u043F\u0440\u043E\u0438\u0433\u0440\u0430\u043D."
   next: {fileID: 0}
   isFirst: 0
 --- !u!1 &1328429984
@@ -8725,10 +8727,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -9579,7 +9581,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9598,8 +9600,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554632766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1260092, y: 1.1543286, z: 100}
-  m_LocalScale: {x: 0.307476, y: 0.312662, z: 1}
+  m_LocalPosition: {x: 2.063, y: 1.204, z: 100}
+  m_LocalScale: {x: 0.28257045, y: 0.3392383, z: 1}
   m_Children: []
   m_Father: {fileID: 624716712}
   m_RootOrder: 1
@@ -9697,10 +9699,8 @@ MonoBehaviour:
   box: {fileID: 1555984446}
   text: {fileID: 1652588668}
   sentences:
-  - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u0441\u044E\u0434\u0430 \u0438 \u0443
-    \u0432\u0430\u0441 \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F \u043D\u043E\u0432\u0430\u044F
-    \u0441\u0442\u0440\u0435\u043B\u043A\u0430 \u0434\u043B\u044F \u0440\u0430\u0437\u043C\u0435\u0449\u0435\u043D\u0438\u044F
-    \u043D\u0430 \u0443\u0440\u043E\u043D\u0435."
+  - "\u042D\u0442\u0430 \u043A\u043D\u043E\u043F\u043A\u0430 \u0441\u043E\u0437\u0434\u0430\u0441\u0442
+    \u0432\u0430\u043C \u043D\u043E\u0432\u044B\u0439 \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C."
   - "\u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0432\u044B\u0431\u0440\u0430\u0442\u044C
     \u043E\u0431\u044A\u0435\u043A\u0442, \u043D\u0430\u0436\u0430\u0432 \u043D\u0430
     \u043D\u0435\u0433\u043E."
@@ -11483,7 +11483,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11924,7 +11924,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f2dcfc37d78e024288468331f8bfab6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ac3aa9810dbd8540b3b5d352081b5ef, type: 3}
   m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_FlipX: 0
   m_FlipY: 0
