@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{5457FDD9-73A6-446A-8D62-F4684CB82129}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -82,7 +81,6 @@
     <None Include="Assets\Scenes\background-elements-redux\License.txt" />
     <None Include="Assets\Scenes\background-elements-redux\Spritesheet\spritesheet_retina.xml" />
     <None Include="Assets\Scenes\background-elements-redux\Spritesheet\spritesheet_default.xml" />
-    <None Include="ClassDiagram1.cd" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/narkada/I'll start again/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
